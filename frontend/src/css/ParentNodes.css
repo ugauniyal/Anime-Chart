@@ -1,0 +1,54 @@
+/* SiblingNodes.css */
+
+/* Main container styles */
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Node styles */
+.node {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Parents container */
+.parents {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Children under parents container */
+.children-under-parents {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Styling for node headings */
+h3 {
+  color: #555;
+  margin-bottom: 8px;
+}
+
+/* Styling for child nodes */
+.children .node {
+  background-color: #e6f7ff;
+  border-color: #91d5ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional styling for better visualization */
+.children .node:hover {
+  transform: translateY(-2px);
+  transition: transform 0.3s ease-in-out;
+}
